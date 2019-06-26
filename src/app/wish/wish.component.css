@@ -1,0 +1,35 @@
+
+/* mat-card{ 
+    
+}
+*/
+.example-card {
+    min-width: 260px;
+    margin-right: 4rem;
+    min-height: 280px;
+  }
+  .image-section{
+      width: 100px;
+      margin: 0rem 8rem;
+      
+  }
+  mat-card-header{
+      text-align: center;
+      /* width:100%; font-size: 1.5rem; */
+      display: block;
+      margin-left: 10%;
+      
+  }
+  .grid{
+      margin: 2rem 2rem;
+      
+  }
+  .btn{
+    /* margin-right: 8px; */
+    margin-top: 1rem;
+    margin-left: 7rem;
+  }
+  button{
+      margin-left: 1rem;
+  }
+  

@@ -1,0 +1,26 @@
+<mat-sidenav-container class="sidenav-container" >
+  <mat-sidenav-content>
+      <mat-toolbar color="accent">
+          <span>TikTok</span>
+        <mat-icon>music_note</mat-icon>
+          <!-- This fills the remaining space of the current row -->
+          <span class="example-fill-remaining-space"></span>
+        
+          <a mat-list-item routerLink="/tracks">Tracks</a>
+          <a mat-list-item routerLink="/wishlist">Wishlist</a>
+
+          <mat-form-field class="example-form-field">
+              <input matInput type="text" placeholder="search" [(ngModel)]="value">
+              <button mat-button *ngIf="value" matSuffix mat-icon-button  (click)="value=''">
+                <mat-icon>search</mat-icon>
+              </button>
+            </mat-form-field>
+        </mat-toolbar>
+    <!-- <mat-toolbar>
+     
+      
+    </mat-toolbar> -->
+    <!-- Add Content Here -->
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
